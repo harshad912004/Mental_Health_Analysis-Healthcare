@@ -1,0 +1,616 @@
+Person_ID,Age,Gender,Role,Department,Workload_Level,Chronic_Illness,Medication_Usage,Satisfaction_Score,Sleep_Hours,Stress_Level,Support_System
+H0001,7,Male,Patient,Neurology,Low,Yes,No,6,8.8,1,Yes
+H0003,38,Male,Patient,Orthopedics,High,Yes,No,1,9.1,1,No
+H0004,1,Female,Patient,Oncology,Moderate,Yes,No,1,8.4,6,No
+H0005,11,Male,Patient,General Medicine,Low,No,No,8,7.7,3,Yes
+H0006,40,Male,Patient,General Medicine,Low,Yes,Yes,4,9.7,3,Yes
+H0008,53,Male,Patient,General Medicine,Moderate,No,Yes,3,4,4,No
+H0009,14,Female,Patient,Pediatrics,Moderate,No,Yes,5,3.3,7,No
+H0011,38,Female,Doctor,General Medicine,High,Yes,Yes,9,6.1,4,Yes
+H0012,40,Female,Doctor,Oncology,Low,No,No,6,8.7,7,Yes
+H0014,59,Male,Doctor,General Medicine,High,No,No,7,7.9,7,No
+H0016,39,Female,Doctor,General Medicine,Low,No,No,8,9.9,6,Yes
+H0018,68,Male,Doctor,Orthopedics,High,No,No,6,3.9,2,Yes
+H0019,36,Male,Patient,Orthopedics,Moderate,Yes,Yes,6,8.7,8,Yes
+H0021,38,Female,Doctor,Orthopedics,High,Yes,No,10,4.3,8,Yes
+H0024,55,Male,Patient,General Medicine,High,No,Yes,7,3.8,6,Yes
+H0025,71,Male,Patient,Orthopedics,Moderate,Yes,No,8,4.6,6,Yes
+H0027,70,Male,Patient,Neurology,Moderate,Yes,No,2,5.5,4,Yes
+H0028,5,Male,Patient,Pediatrics,Low,Yes,Yes,6,6.2,9,No
+H0030,33,Male,Doctor,Orthopedics,High,Yes,No,2,5.1,6,Yes
+H0031,48,Male,Patient,Emergency,High,No,Yes,7,3.5,10,No
+H0032,57,Female,Doctor,Orthopedics,Low,Yes,No,6,8.3,4,No
+H0033,41,Female,Patient,Psychiatry,Low,No,Yes,5,8.6,9,No
+H0034,46,Male,Doctor,General Medicine,Moderate,Yes,Yes,6,8.1,1,No
+H0036,64,Female,Doctor,Cardiology,Moderate,Yes,Yes,8,9,3,Yes
+H0037,77,Male,Patient,Orthopedics,Moderate,No,No,3,9.4,3,No
+H0038,63,Female,Doctor,Neurology,Moderate,Yes,No,9,9.7,10,Yes
+H0039,44,Female,Doctor,Orthopedics,Low,Yes,Yes,9,4.3,8,No
+H0040,58,Female,Patient,General Medicine,High,Yes,No,1,9.4,6,Yes
+H0041,17,Male,Patient,Oncology,Low,No,Yes,6,9.2,1,No
+H0042,30,Male,Doctor,Pediatrics,High,No,No,4,6.1,2,No
+H0048,11,Female,Patient,Pediatrics,High,Yes,Yes,1,7.9,10,Yes
+H0050,45,Female,Doctor,Pediatrics,Low,No,Yes,3,3.6,6,Yes
+H0051,66,Female,Doctor,Pediatrics,Low,Yes,Yes,9,4.5,4,Yes
+H0053,30,Male,Doctor,Oncology,High,Yes,No,1,7.9,9,Yes
+H0055,52,Male,Patient,Oncology,Moderate,Yes,Yes,2,5.6,10,Yes
+H0056,63,Male,Doctor,Psychiatry,Moderate,No,No,5,3.3,1,No
+H0057,31,Male,Patient,Pediatrics,Low,Yes,Yes,2,6.8,7,No
+H0058,39,Female,Doctor,Orthopedics,High,Yes,Yes,7,5.6,7,Yes
+H0060,26,Male,Doctor,Neurology,Low,No,Yes,1,6.9,3,No
+H0061,70,Male,Doctor,Neurology,High,Yes,Yes,3,7.2,2,No
+H0062,26,Female,Doctor,Orthopedics,Moderate,No,Yes,9,3,2,Yes
+H0063,85,Female,Patient,Neurology,High,No,No,3,8.4,9,No
+H0064,35,Female,Doctor,Oncology,High,No,Yes,10,8.8,2,Yes
+H0065,29,Female,Doctor,Neurology,Low,Yes,No,7,9.4,1,Yes
+H0066,63,Male,Doctor,Orthopedics,Low,Yes,No,9,6.5,4,Yes
+H0067,47,Female,Doctor,Pediatrics,Low,No,Yes,7,7.3,10,No
+H0068,34,Male,Doctor,Pediatrics,High,No,Yes,4,4.6,8,No
+H0069,61,Male,Doctor,General Medicine,Low,Yes,No,7,6.3,6,No
+H0071,53,Female,Doctor,Orthopedics,Low,No,No,7,5.6,7,Yes
+H0073,57,Male,Doctor,Psychiatry,Moderate,No,No,2,9.7,1,Yes
+H0075,39,Female,Patient,General Medicine,Moderate,Yes,No,1,5.6,3,No
+H0078,56,Female,Patient,Pediatrics,High,No,No,6,9.8,10,No
+H0079,52,Male,Patient,Orthopedics,Low,Yes,No,5,4,3,No
+H0080,68,Male,Doctor,Orthopedics,Low,Yes,Yes,9,7.9,9,No
+H0081,53,Male,Doctor,Psychiatry,Moderate,Yes,No,6,5.3,4,No
+H0082,44,Female,Patient,Orthopedics,High,Yes,Yes,4,9.7,3,Yes
+H0084,2,Female,Patient,Emergency,Moderate,No,Yes,8,9.4,5,No
+H0085,51,Male,Doctor,Pediatrics,High,No,No,3,4.2,10,No
+H0086,42,Female,Doctor,General Medicine,High,No,Yes,1,7,1,No
+H0088,55,Male,Doctor,Emergency,Low,No,No,3,4.1,10,Yes
+H0089,27,Male,Doctor,Emergency,Low,Yes,Yes,7,8.5,7,No
+H0090,48,Female,Patient,Psychiatry,High,No,Yes,10,4,5,Yes
+H0093,56,Male,Doctor,Cardiology,Moderate,Yes,Yes,2,9.7,1,Yes
+H0094,44,Male,Patient,Orthopedics,Low,No,No,3,7.8,7,No
+H0095,52,Male,Patient,General Medicine,Moderate,No,No,6,8,10,No
+H0096,2,Male,Patient,Pediatrics,Low,Yes,Yes,6,8.6,9,Yes
+H0097,33,Female,Doctor,General Medicine,Moderate,Yes,No,10,7.1,9,Yes
+H0098,39,Male,Doctor,Pediatrics,High,Yes,No,7,3.7,9,Yes
+H0101,32,Male,Patient,Psychiatry,High,Yes,Yes,7,6,8,Yes
+H0102,26,Male,Doctor,Cardiology,Low,No,No,10,6.4,1,Yes
+H0104,83,Female,Patient,Orthopedics,Moderate,Yes,No,7,5.6,8,No
+H0105,40,Female,Patient,Cardiology,High,Yes,No,8,6.8,1,No
+H0106,29,Male,Patient,Cardiology,Moderate,No,No,8,7.9,5,No
+H0108,64,Female,Patient,Pediatrics,Low,Yes,Yes,9,5.5,6,No
+H0110,10,Male,Patient,Orthopedics,Low,Yes,Yes,8,5.6,1,Yes
+H0114,67,Female,Doctor,Neurology,Moderate,No,No,4,9.3,5,Yes
+H0115,63,Male,Patient,Neurology,Low,No,No,3,5.2,3,Yes
+H0116,59,Female,Doctor,Neurology,High,No,No,9,4.6,6,No
+H0119,26,Male,Doctor,Psychiatry,High,No,Yes,10,9.2,7,Yes
+H0121,43,Male,Patient,Orthopedics,High,No,Yes,10,9.8,8,No
+H0122,26,Male,Patient,Pediatrics,Low,No,Yes,4,6.7,1,Yes
+H0123,49,Female,Doctor,Cardiology,Moderate,Yes,No,6,3.9,6,Yes
+H0124,85,Female,Patient,Emergency,Moderate,Yes,Yes,7,3.3,2,Yes
+H0125,29,Male,Doctor,Oncology,High,Yes,Yes,2,9.6,6,Yes
+H0126,26,Female,Doctor,Psychiatry,Moderate,Yes,No,7,6.7,9,Yes
+H0128,31,Female,Patient,Orthopedics,Low,Yes,No,9,5.7,9,Yes
+H0129,6,Male,Patient,Pediatrics,Moderate,Yes,Yes,10,9,7,No
+H0130,52,Female,Doctor,Neurology,Low,No,Yes,6,4.2,6,Yes
+H0133,65,Female,Doctor,Oncology,High,Yes,Yes,3,8.3,3,Yes
+H0134,54,Male,Patient,Orthopedics,Moderate,No,Yes,1,3.4,8,Yes
+H0135,29,Female,Patient,Orthopedics,High,Yes,Yes,10,4.9,8,Yes
+H0136,72,Female,Patient,Neurology,High,No,No,9,4,5,Yes
+H0140,1,Female,Patient,Pediatrics,High,No,No,6,6.4,5,Yes
+H0141,37,Male,Patient,Pediatrics,Moderate,Yes,No,8,6.1,3,Yes
+H0142,44,Male,Doctor,Oncology,Low,No,No,8,8.5,6,Yes
+H0144,67,Male,Patient,Emergency,High,No,No,10,8.6,3,Yes
+H0145,36,Female,Patient,Neurology,Moderate,No,Yes,10,3.2,1,No
+H0146,50,Male,Doctor,General Medicine,Low,Yes,Yes,6,8.1,7,Yes
+H0148,44,Male,Doctor,Emergency,Moderate,No,Yes,10,5.2,1,Yes
+H0149,41,Male,Doctor,Oncology,Moderate,No,Yes,6,3.8,6,No
+H0150,32,Female,Doctor,Psychiatry,Moderate,No,No,7,5.2,2,Yes
+H0151,43,Female,Doctor,Psychiatry,High,No,Yes,10,8.5,7,Yes
+H0152,54,Male,Doctor,Neurology,Moderate,No,Yes,4,7.8,1,No
+H0153,37,Female,Patient,General Medicine,Moderate,Yes,No,3,7.9,6,Yes
+H0154,13,Female,Patient,Emergency,High,No,Yes,10,9.8,4,Yes
+H0155,68,Female,Doctor,Orthopedics,High,Yes,No,6,7.1,6,No
+H0156,46,Male,Doctor,Emergency,High,No,Yes,9,4.8,6,Yes
+H0159,46,Female,Doctor,Psychiatry,Moderate,Yes,No,10,9.3,1,Yes
+H0160,41,Female,Doctor,Cardiology,Moderate,Yes,Yes,9,7.5,1,No
+H0161,60,Female,Patient,Pediatrics,Low,Yes,Yes,1,8.3,7,Yes
+H0164,54,Female,Patient,Orthopedics,High,Yes,Yes,6,9.6,9,No
+H0165,26,Female,Doctor,Pediatrics,Low,Yes,No,1,3.1,2,Yes
+H0167,35,Male,Doctor,Cardiology,Moderate,No,No,10,7.4,2,Yes
+H0169,49,Male,Doctor,Pediatrics,Low,No,Yes,8,3.4,2,Yes
+H0170,50,Male,Patient,Neurology,Low,Yes,Yes,1,3.3,1,No
+H0171,33,Male,Doctor,Neurology,Low,Yes,Yes,9,9.7,1,Yes
+H0172,49,Male,Doctor,Neurology,High,Yes,No,6,3.9,5,Yes
+H0173,26,Male,Doctor,Orthopedics,Low,No,No,5,5.5,10,Yes
+H0175,69,Male,Doctor,Oncology,High,Yes,Yes,8,4.1,9,No
+H0179,39,Female,Doctor,Cardiology,Low,Yes,No,5,5.8,4,No
+H0180,23,Male,Patient,Psychiatry,High,No,No,2,5.3,6,Yes
+H0181,57,Female,Patient,Orthopedics,High,No,Yes,8,9.5,1,No
+H0183,29,Female,Patient,Psychiatry,Moderate,Yes,Yes,6,8.8,6,Yes
+H0184,36,Female,Doctor,Cardiology,Moderate,Yes,No,3,9.9,4,No
+H0185,73,Male,Patient,Orthopedics,Low,Yes,No,2,7.2,9,Yes
+H0186,39,Female,Patient,Oncology,High,Yes,No,5,6.2,4,Yes
+H0188,38,Female,Doctor,Psychiatry,High,Yes,Yes,2,7.6,5,Yes
+H0189,47,Male,Doctor,General Medicine,High,No,No,7,7.2,6,Yes
+H0190,70,Male,Doctor,General Medicine,Moderate,Yes,No,9,9.4,7,Yes
+H0191,37,Male,Doctor,Neurology,High,No,No,2,7.3,6,No
+H0193,32,Female,Patient,Oncology,High,Yes,Yes,4,3.1,4,No
+H0194,57,Male,Patient,Orthopedics,Moderate,No,No,4,9,4,Yes
+H0199,46,Female,Patient,Psychiatry,High,Yes,No,1,9.1,9,Yes
+H0201,15,Female,Patient,Emergency,High,Yes,No,5,7.5,8,No
+H0204,49,Female,Doctor,General Medicine,Low,Yes,No,9,5.6,9,Yes
+H0205,55,Male,Patient,Pediatrics,High,Yes,Yes,4,8.1,7,Yes
+H0206,25,Female,Patient,Orthopedics,High,Yes,No,9,9.3,7,Yes
+H0208,1,Male,Patient,General Medicine,Moderate,Yes,No,7,8,5,No
+H0209,59,Female,Doctor,Cardiology,High,No,No,3,3.7,8,Yes
+H0210,43,Female,Doctor,Psychiatry,High,Yes,Yes,8,8,3,No
+H0211,63,Male,Doctor,Neurology,Low,Yes,Yes,1,6,2,No
+H0212,22,Female,Patient,Oncology,Moderate,No,No,7,9.5,4,Yes
+H0213,32,Female,Doctor,Orthopedics,Moderate,No,No,1,9.1,5,No
+H0215,48,Male,Doctor,Oncology,Low,Yes,No,9,9.7,3,No
+H0216,54,Male,Doctor,Orthopedics,Low,Yes,No,2,5.6,3,Yes
+H0218,26,Male,Doctor,Oncology,High,No,Yes,8,3.9,9,Yes
+H0220,84,Male,Patient,Psychiatry,Low,Yes,No,2,9.9,10,No
+H0221,66,Male,Doctor,Pediatrics,Moderate,Yes,No,3,7,2,Yes
+H0222,56,Male,Patient,Cardiology,Moderate,Yes,Yes,7,8.1,6,Yes
+H0223,54,Male,Patient,Orthopedics,High,No,Yes,6,4.4,6,Yes
+H0224,66,Female,Patient,Cardiology,Low,Yes,No,1,4.5,3,No
+H0225,73,Male,Patient,Neurology,Moderate,No,Yes,5,5.3,7,Yes
+H0226,71,Male,Patient,Neurology,Low,No,Yes,4,4.1,6,Yes
+H0227,23,Male,Patient,Cardiology,Moderate,Yes,Yes,5,9.6,9,No
+H0228,35,Male,Doctor,Neurology,High,No,No,6,10,8,No
+H0231,55,Female,Patient,Orthopedics,High,No,No,4,7.8,7,No
+H0232,60,Female,Doctor,Neurology,High,Yes,Yes,5,7.1,6,No
+H0233,31,Female,Patient,Cardiology,Low,Yes,Yes,10,4.5,10,Yes
+H0234,37,Male,Doctor,Oncology,Low,Yes,No,5,9.5,7,Yes
+H0236,48,Female,Patient,General Medicine,Low,Yes,Yes,10,9.4,3,No
+H0237,26,Male,Patient,Emergency,Low,Yes,Yes,3,8.7,2,Yes
+H0238,62,Female,Doctor,Cardiology,High,No,No,10,5.4,8,No
+H0239,38,Female,Doctor,Orthopedics,High,No,No,6,6.3,10,No
+H0240,73,Female,Patient,Pediatrics,High,No,Yes,10,5.5,3,Yes
+H0242,28,Male,Doctor,General Medicine,Moderate,No,Yes,9,3.4,3,Yes
+H0243,10,Male,Patient,Neurology,Low,Yes,Yes,4,8,9,No
+H0244,24,Male,Patient,Orthopedics,Moderate,No,No,10,4.5,3,Yes
+H0245,35,Male,Doctor,Cardiology,Low,Yes,No,1,3.6,5,Yes
+H0246,59,Male,Doctor,Pediatrics,Moderate,Yes,Yes,9,8.8,9,No
+H0247,47,Male,Doctor,General Medicine,Low,No,Yes,1,4.8,8,Yes
+H0248,65,Male,Doctor,Neurology,High,No,Yes,7,4.6,1,Yes
+H0249,40,Male,Doctor,Orthopedics,High,No,No,6,5.2,7,Yes
+H0250,63,Female,Patient,Oncology,Moderate,No,Yes,8,7.2,7,No
+H0251,5,Female,Patient,Neurology,High,Yes,No,1,5.4,3,Yes
+H0252,60,Female,Doctor,Oncology,Moderate,Yes,No,5,4.2,2,Yes
+H0253,61,Female,Doctor,General Medicine,Low,Yes,No,1,3.9,3,No
+H0254,31,Female,Doctor,General Medicine,Moderate,No,Yes,5,5.7,10,No
+H0255,69,Female,Doctor,Oncology,High,Yes,No,8,8.3,3,Yes
+H0256,54,Male,Patient,Psychiatry,Low,No,No,4,4.2,10,Yes
+H0257,47,Female,Doctor,Cardiology,Low,No,Yes,1,7.9,1,Yes
+H0258,2,Female,Patient,Cardiology,Low,Yes,No,6,7.6,10,No
+H0260,56,Male,Doctor,Emergency,High,No,No,10,9.5,8,No
+H0261,40,Female,Patient,Neurology,Moderate,No,No,4,7.2,9,No
+H0263,44,Male,Doctor,Neurology,Low,No,Yes,9,3.7,5,Yes
+H0264,37,Female,Patient,Emergency,Moderate,Yes,No,8,6.3,2,Yes
+H0266,43,Male,Doctor,General Medicine,High,Yes,No,3,3.6,3,Yes
+H0267,31,Female,Patient,Psychiatry,High,No,No,1,8.2,1,Yes
+H0268,25,Female,Patient,Cardiology,Low,Yes,Yes,3,4.5,10,No
+H0271,46,Male,Patient,General Medicine,Moderate,No,Yes,9,8.8,6,No
+H0272,27,Male,Doctor,Neurology,Moderate,Yes,Yes,5,3.6,4,No
+H0274,47,Female,Doctor,Pediatrics,High,No,Yes,7,8.1,4,Yes
+H0275,45,Female,Doctor,Emergency,Low,No,No,10,4.2,5,No
+H0277,29,Male,Patient,Emergency,High,No,No,7,5.6,5,No
+H0278,32,Female,Doctor,General Medicine,Moderate,No,Yes,3,9.8,2,Yes
+H0280,61,Male,Patient,Pediatrics,Low,No,No,1,4.1,10,Yes
+H0282,51,Female,Doctor,Oncology,Moderate,Yes,Yes,6,5.3,8,No
+H0283,59,Female,Doctor,Neurology,Low,No,No,10,3.5,5,No
+H0284,19,Female,Patient,Oncology,Moderate,Yes,No,10,6.5,5,Yes
+H0286,57,Male,Doctor,Psychiatry,High,No,No,4,4.9,7,Yes
+H0288,79,Female,Patient,Orthopedics,High,Yes,No,5,8.8,9,No
+H0289,31,Male,Doctor,Orthopedics,Moderate,No,Yes,8,9.1,8,No
+H0290,14,Female,Patient,Orthopedics,Low,Yes,No,6,8,4,Yes
+H0291,42,Female,Patient,Oncology,Low,Yes,No,8,5.8,5,Yes
+H0292,58,Male,Doctor,Orthopedics,Moderate,Yes,No,6,7.7,8,Yes
+H0293,60,Female,Doctor,Orthopedics,Moderate,Yes,Yes,2,6.6,9,No
+H0295,72,Male,Patient,Emergency,Moderate,Yes,No,5,8.6,6,No
+H0297,45,Male,Doctor,Cardiology,High,No,Yes,9,8.5,4,No
+H0298,58,Female,Patient,General Medicine,High,Yes,Yes,4,5.1,5,No
+H0299,59,Female,Patient,Oncology,Moderate,Yes,Yes,3,4.4,7,Yes
+H0302,75,Male,Patient,Orthopedics,Moderate,No,Yes,2,9.9,3,No
+H0305,72,Male,Patient,Emergency,Moderate,Yes,Yes,10,6.8,8,No
+H0306,52,Male,Doctor,General Medicine,High,Yes,No,1,5.8,3,No
+H0307,7,Female,Patient,Orthopedics,Low,No,No,10,5.4,3,No
+H0308,68,Female,Doctor,Oncology,High,Yes,Yes,2,4.5,6,Yes
+H0309,65,Female,Patient,General Medicine,Moderate,No,No,5,7.1,3,Yes
+H0311,70,Female,Doctor,General Medicine,High,No,No,4,6.9,9,Yes
+H0315,43,Male,Patient,Orthopedics,High,No,Yes,9,6.8,4,No
+H0316,20,Female,Patient,Cardiology,Low,Yes,Yes,9,5.6,1,No
+H0317,59,Female,Patient,Neurology,High,Yes,No,7,3.1,10,Yes
+H0318,30,Male,Doctor,Neurology,Moderate,Yes,No,9,6.3,7,Yes
+H0320,34,Male,Patient,Orthopedics,High,No,No,7,4.9,8,Yes
+H0321,84,Male,Patient,General Medicine,Moderate,No,Yes,5,9.5,5,No
+H0323,40,Female,Patient,Psychiatry,Moderate,No,No,1,6.1,2,Yes
+H0325,63,Male,Doctor,Oncology,Low,Yes,No,2,9.8,5,No
+H0327,70,Male,Patient,Oncology,High,No,No,7,8.8,1,Yes
+H0328,56,Female,Patient,General Medicine,Moderate,No,Yes,3,4.2,2,Yes
+H0329,40,Female,Doctor,Oncology,Low,Yes,No,7,5.8,5,No
+H0330,62,Male,Patient,Neurology,High,No,Yes,10,3.5,3,Yes
+H0331,62,Male,Doctor,Oncology,Moderate,No,Yes,7,9.5,10,No
+H0332,64,Male,Doctor,General Medicine,Moderate,No,No,4,10,2,Yes
+H0334,33,Female,Patient,Orthopedics,High,No,Yes,5,8.2,10,No
+H0337,32,Female,Patient,Neurology,Moderate,Yes,No,9,7.1,6,No
+H0341,45,Female,Doctor,Pediatrics,High,Yes,Yes,2,6.4,4,Yes
+H0342,70,Male,Doctor,Pediatrics,High,Yes,Yes,1,4.2,1,Yes
+H0343,41,Male,Doctor,General Medicine,Moderate,No,No,7,8.1,10,Yes
+H0344,62,Male,Patient,Neurology,High,Yes,Yes,4,7,4,Yes
+H0345,53,Female,Doctor,Orthopedics,Moderate,Yes,No,6,7.6,10,No
+H0346,7,Male,Patient,Emergency,Moderate,Yes,Yes,2,3,3,Yes
+H0347,30,Female,Doctor,Psychiatry,Moderate,No,Yes,9,7.4,3,Yes
+H0348,4,Female,Patient,Pediatrics,Low,No,Yes,4,7.9,1,Yes
+H0349,37,Male,Patient,Neurology,Low,No,Yes,3,3.7,4,No
+H0350,43,Male,Doctor,Psychiatry,Moderate,Yes,No,1,9.3,5,No
+H0351,46,Female,Doctor,Pediatrics,Moderate,Yes,No,8,5.3,1,Yes
+H0352,15,Female,Patient,General Medicine,Low,Yes,Yes,8,4.6,4,No
+H0355,46,Male,Patient,Neurology,Low,Yes,No,9,8.7,8,No
+H0356,55,Male,Doctor,Orthopedics,Low,No,Yes,4,5.6,3,No
+H0357,66,Male,Patient,Neurology,Moderate,No,No,8,5.3,10,Yes
+H0360,7,Female,Patient,Neurology,High,No,No,10,6.8,5,No
+H0363,70,Female,Doctor,Emergency,Moderate,No,No,4,5.7,1,Yes
+H0365,37,Female,Doctor,Neurology,Low,Yes,Yes,1,8.8,8,No
+H0366,29,Female,Patient,Cardiology,High,No,Yes,3,6,6,Yes
+H0368,7,Male,Patient,Cardiology,Moderate,No,No,5,3.6,6,Yes
+H0369,76,Female,Patient,Emergency,High,No,No,7,7.1,5,No
+H0370,51,Male,Doctor,Cardiology,High,No,Yes,8,9.4,7,No
+H0371,71,Male,Patient,Oncology,Moderate,No,Yes,6,8,1,No
+H0372,46,Male,Doctor,Neurology,Low,Yes,No,7,4.6,5,Yes
+H0374,55,Female,Doctor,General Medicine,Moderate,No,Yes,2,4.1,10,No
+H0375,42,Female,Patient,Emergency,Moderate,Yes,Yes,2,4.8,3,Yes
+H0376,79,Female,Patient,Psychiatry,Low,No,Yes,9,6.7,5,No
+H0377,56,Male,Patient,Emergency,Low,No,No,3,7.4,6,No
+H0378,43,Female,Doctor,Neurology,Moderate,Yes,No,7,7.1,5,No
+H0379,6,Male,Patient,Emergency,Low,No,No,10,3.8,1,No
+H0381,35,Female,Doctor,Oncology,Low,Yes,No,2,7.6,5,Yes
+H0383,48,Female,Patient,Psychiatry,High,Yes,Yes,5,10,5,No
+H0384,26,Female,Patient,Emergency,Moderate,Yes,No,7,9.1,6,No
+H0385,36,Male,Doctor,Psychiatry,Low,No,Yes,1,9.4,2,Yes
+H0386,18,Female,Patient,Oncology,High,No,Yes,1,7.2,4,Yes
+H0388,85,Male,Patient,Neurology,Moderate,Yes,No,3,8.9,2,Yes
+H0389,66,Female,Patient,General Medicine,Low,No,No,6,8.7,4,Yes
+H0393,73,Female,Patient,Cardiology,Moderate,No,No,9,4.8,10,Yes
+H0394,40,Female,Doctor,Cardiology,High,No,No,9,4,1,No
+H0396,50,Female,Patient,Neurology,Low,No,Yes,2,7.9,6,Yes
+H0397,53,Male,Patient,Neurology,Low,No,Yes,7,7.9,2,Yes
+H0399,59,Female,Doctor,Emergency,High,No,Yes,9,3.9,4,No
+H0400,33,Male,Patient,Oncology,High,Yes,No,8,7,7,Yes
+H0403,18,Male,Patient,Orthopedics,Low,No,Yes,2,7,10,No
+H0405,33,Female,Patient,Psychiatry,Low,No,Yes,6,8.2,3,No
+H0406,35,Female,Doctor,Neurology,Moderate,Yes,No,4,4.8,4,No
+H0407,32,Female,Patient,Neurology,High,Yes,Yes,4,8.8,7,No
+H0409,42,Female,Doctor,Oncology,Low,No,No,10,5.9,10,Yes
+H0410,71,Female,Patient,Psychiatry,Moderate,Yes,No,10,5.3,8,No
+H0411,22,Male,Patient,Oncology,Moderate,Yes,Yes,4,5.3,10,Yes
+H0413,20,Female,Patient,Cardiology,High,No,Yes,8,7.6,10,Yes
+H0414,34,Female,Patient,Oncology,Low,No,Yes,3,5.7,1,No
+H0415,71,Female,Patient,Pediatrics,High,No,No,4,9.3,6,No
+H0416,53,Male,Doctor,Emergency,High,Yes,Yes,3,5.4,7,No
+H0417,52,Male,Doctor,Emergency,Moderate,Yes,No,9,3.7,9,Yes
+H0421,23,Male,Patient,Oncology,Low,Yes,Yes,4,3.2,4,Yes
+H0422,44,Male,Patient,Pediatrics,Moderate,No,No,1,3.4,8,Yes
+H0423,66,Male,Patient,Oncology,High,Yes,No,7,8.6,10,Yes
+H0425,30,Female,Doctor,General Medicine,High,No,Yes,3,7.1,6,No
+H0426,77,Male,Patient,Cardiology,High,Yes,No,7,9.2,2,No
+H0427,42,Male,Doctor,Oncology,High,Yes,Yes,8,5.2,3,No
+H0428,2,Female,Patient,Cardiology,Low,Yes,Yes,1,9.1,3,No
+H0429,27,Male,Patient,Cardiology,Moderate,No,Yes,3,6.6,2,Yes
+H0431,40,Male,Patient,Orthopedics,Moderate,No,No,8,3.4,6,Yes
+H0433,64,Female,Doctor,Orthopedics,High,Yes,No,3,7,2,No
+H0434,50,Male,Doctor,Psychiatry,Moderate,No,No,1,6.6,10,Yes
+H0435,52,Male,Doctor,General Medicine,Low,Yes,Yes,2,3.2,7,Yes
+H0436,10,Male,Patient,Neurology,Low,Yes,No,9,5.2,2,Yes
+H0437,2,Male,Patient,General Medicine,High,Yes,Yes,10,3.3,2,No
+H0440,70,Female,Patient,Emergency,High,No,No,6,7,6,Yes
+H0442,79,Female,Patient,Neurology,Low,No,No,3,4,5,Yes
+H0445,65,Female,Doctor,Orthopedics,High,No,Yes,6,9.1,5,No
+H0446,53,Female,Doctor,Oncology,Low,No,Yes,3,4.2,10,No
+H0447,30,Female,Patient,Emergency,Moderate,No,Yes,2,4.7,1,Yes
+H0448,44,Female,Patient,Orthopedics,Low,No,Yes,3,6.6,10,No
+H0449,61,Male,Patient,General Medicine,Low,No,No,4,6.8,6,Yes
+H0450,79,Female,Patient,Psychiatry,High,No,Yes,7,6.2,10,No
+H0451,5,Female,Patient,General Medicine,Moderate,Yes,No,8,5.2,3,Yes
+H0453,40,Female,Doctor,Emergency,Low,No,Yes,7,5.7,2,Yes
+H0455,3,Female,Patient,General Medicine,Low,Yes,No,2,4.6,1,No
+H0456,70,Female,Patient,Emergency,Moderate,No,No,5,5.8,3,Yes
+H0457,48,Female,Doctor,Pediatrics,Low,Yes,Yes,5,5.7,5,No
+H0458,56,Male,Patient,General Medicine,Moderate,No,No,9,5.4,3,Yes
+H0459,35,Male,Patient,Emergency,Moderate,No,No,2,6.6,5,No
+H0460,46,Male,Patient,Orthopedics,Moderate,No,Yes,9,4.6,3,No
+H0461,67,Female,Doctor,Orthopedics,High,Yes,No,3,8.1,4,No
+H0462,50,Male,Doctor,Pediatrics,Moderate,Yes,No,2,6.1,5,No
+H0463,64,Male,Patient,Pediatrics,High,No,Yes,3,5.1,2,Yes
+H0464,29,Male,Doctor,Orthopedics,Low,Yes,Yes,6,6.6,2,No
+H0466,82,Male,Patient,General Medicine,Low,No,Yes,1,3.4,3,Yes
+H0467,24,Male,Patient,Oncology,High,Yes,Yes,2,7.2,1,No
+H0468,43,Female,Doctor,Oncology,High,Yes,Yes,5,9.8,2,No
+H0469,51,Female,Patient,Cardiology,High,No,No,9,5.7,8,Yes
+H0471,36,Male,Doctor,Oncology,Moderate,No,No,9,4.8,3,Yes
+H0472,22,Male,Patient,Cardiology,High,No,Yes,8,9,7,No
+H0473,30,Male,Doctor,Neurology,High,Yes,Yes,2,10,7,Yes
+H0474,43,Female,Patient,Cardiology,Low,No,No,2,4.2,7,Yes
+H0475,68,Female,Patient,Emergency,Low,No,Yes,5,9.6,2,No
+H0476,80,Male,Patient,Pediatrics,High,Yes,Yes,6,8.9,4,Yes
+H0478,67,Female,Patient,Psychiatry,Low,No,Yes,1,4.5,4,No
+H0479,41,Female,Doctor,Neurology,Low,No,Yes,6,8.1,7,No
+H0480,28,Male,Doctor,Oncology,Low,No,No,6,9.3,1,Yes
+H0482,74,Male,Patient,Cardiology,Low,Yes,No,1,8,1,No
+H0483,52,Male,Doctor,Oncology,High,Yes,No,7,9.1,6,No
+H0484,65,Male,Doctor,Emergency,High,Yes,No,4,8,5,No
+H0485,63,Male,Doctor,Oncology,Moderate,No,Yes,4,5.8,6,No
+H0487,63,Female,Doctor,Orthopedics,Low,No,Yes,1,9.1,10,No
+H0488,35,Male,Doctor,Cardiology,Moderate,No,No,3,5.2,8,No
+H0490,26,Female,Doctor,Emergency,High,No,No,1,3,1,Yes
+H0491,69,Female,Doctor,Oncology,High,No,Yes,8,7.8,6,Yes
+H0493,33,Male,Patient,Emergency,High,Yes,Yes,4,6.6,1,Yes
+H0496,61,Male,Doctor,General Medicine,Low,Yes,Yes,2,9,6,No
+H0498,55,Male,Patient,Emergency,Low,Yes,No,8,7.8,2,No
+H0499,52,Male,Doctor,Cardiology,Low,Yes,Yes,10,6.5,6,Yes
+H0501,28,Female,Patient,Cardiology,High,Yes,Yes,3,4.8,1,Yes
+H0502,52,Female,Doctor,Emergency,Low,No,No,10,7,7,No
+H0503,77,Male,Patient,Oncology,Moderate,Yes,Yes,3,3.7,9,Yes
+H0505,34,Female,Doctor,Cardiology,High,No,No,8,5.9,10,Yes
+H0508,59,Male,Patient,General Medicine,Moderate,No,No,1,7.6,5,No
+H0509,36,Male,Doctor,Cardiology,High,No,Yes,5,5.2,4,No
+H0510,46,Male,Patient,Psychiatry,High,Yes,No,4,4.7,7,Yes
+H0511,58,Male,Doctor,Orthopedics,Moderate,Yes,Yes,3,6.4,8,Yes
+H0512,34,Female,Patient,Neurology,Moderate,Yes,No,5,6.4,2,No
+H0513,55,Female,Patient,Psychiatry,High,No,Yes,8,10,3,Yes
+H0516,64,Male,Doctor,Cardiology,Low,No,Yes,5,3.5,1,No
+H0517,58,Female,Patient,Oncology,High,Yes,No,10,6.6,1,No
+H0518,28,Male,Patient,Oncology,High,No,No,1,3.8,7,No
+H0519,40,Female,Patient,Orthopedics,High,No,Yes,5,7.8,3,Yes
+H0521,27,Female,Patient,Orthopedics,Moderate,Yes,No,6,8.3,1,Yes
+H0523,33,Male,Doctor,Emergency,High,Yes,No,8,9.3,6,No
+H0526,58,Male,Patient,Emergency,High,Yes,Yes,7,9.5,4,Yes
+H0527,33,Female,Patient,Oncology,Low,Yes,No,3,7.9,6,Yes
+H0528,53,Male,Patient,Cardiology,Moderate,Yes,Yes,8,9.1,7,No
+H0529,40,Female,Doctor,Emergency,Moderate,Yes,No,8,9.5,10,No
+H0530,62,Male,Doctor,Oncology,Low,No,No,2,9.8,7,Yes
+H0534,65,Female,Patient,Psychiatry,Moderate,No,No,1,9.3,9,Yes
+H0535,66,Male,Doctor,Emergency,High,Yes,Yes,5,9.8,3,Yes
+H0536,16,Female,Patient,Pediatrics,High,Yes,Yes,7,6.2,9,Yes
+H0537,64,Male,Doctor,Orthopedics,Moderate,No,No,10,5.7,5,No
+H0539,63,Male,Doctor,Pediatrics,Moderate,Yes,Yes,1,5.6,3,No
+H0541,16,Male,Patient,Neurology,High,No,No,7,8.9,4,Yes
+H0542,6,Female,Patient,Neurology,Low,No,Yes,2,3,10,Yes
+H0544,18,Male,Patient,Orthopedics,Moderate,No,Yes,3,5.8,8,No
+H0546,50,Female,Doctor,Neurology,High,Yes,No,9,9.1,8,No
+H0547,48,Male,Doctor,Emergency,Moderate,Yes,Yes,4,7.5,7,Yes
+H0548,39,Female,Patient,Oncology,High,Yes,Yes,3,4.5,5,Yes
+H0549,26,Male,Patient,Pediatrics,Low,No,No,9,5.3,3,Yes
+H0552,32,Male,Patient,Oncology,High,Yes,No,5,4.7,2,No
+H0553,30,Female,Doctor,Psychiatry,High,Yes,Yes,9,5.1,9,Yes
+H0557,19,Male,Patient,Emergency,High,Yes,Yes,6,3.7,9,No
+H0558,53,Female,Patient,Psychiatry,High,No,No,3,5.2,10,No
+H0559,30,Female,Doctor,Neurology,Low,No,Yes,2,4.2,4,No
+H0561,34,Female,Doctor,Neurology,High,Yes,No,4,7.8,1,Yes
+H0563,48,Female,Doctor,Emergency,Moderate,No,Yes,2,3.7,6,Yes
+H0564,79,Female,Patient,Emergency,Low,Yes,Yes,5,7.4,3,No
+H0567,71,Male,Patient,Psychiatry,High,Yes,Yes,4,6.9,9,No
+H0569,48,Female,Doctor,Neurology,High,No,Yes,2,4.3,7,Yes
+H0570,23,Male,Patient,General Medicine,Moderate,Yes,No,6,3.1,5,No
+H0573,22,Male,Patient,Cardiology,Low,No,Yes,1,3.6,10,Yes
+H0575,14,Male,Patient,Cardiology,Low,No,No,9,6.5,9,No
+H0576,19,Male,Patient,Cardiology,Moderate,Yes,Yes,2,4,10,Yes
+H0577,70,Female,Patient,Emergency,Low,No,Yes,3,5.4,5,No
+H0578,67,Female,Patient,Neurology,Low,No,Yes,7,9.7,3,Yes
+H0579,72,Female,Patient,Oncology,Low,Yes,No,3,9.1,5,No
+H0580,37,Female,Patient,Oncology,Low,Yes,Yes,8,5.9,10,Yes
+H0583,42,Male,Doctor,Neurology,Low,No,No,6,9,8,Yes
+H0584,43,Male,Patient,General Medicine,High,Yes,No,2,3.8,10,No
+H0585,25,Female,Patient,General Medicine,Moderate,Yes,No,9,3.1,9,No
+H0587,73,Male,Patient,Emergency,High,Yes,Yes,6,4,10,Yes
+H0588,48,Male,Doctor,Oncology,High,No,Yes,2,4,6,No
+H0589,32,Male,Doctor,Pediatrics,Moderate,No,No,10,9.1,10,No
+H0590,36,Female,Patient,Emergency,High,No,No,9,7.6,4,Yes
+H0592,26,Female,Patient,Neurology,High,No,Yes,7,5.3,5,Yes
+H0593,62,Female,Patient,General Medicine,Moderate,Yes,No,2,5.6,8,Yes
+H0594,53,Male,Doctor,Emergency,Moderate,No,No,4,7.1,6,Yes
+H0595,12,Male,Patient,Emergency,Low,No,No,9,3.7,1,No
+H0596,10,Female,Patient,Oncology,Low,Yes,Yes,7,7.8,6,Yes
+H0597,73,Female,Patient,Cardiology,Moderate,Yes,No,4,8.7,1,Yes
+H0599,46,Female,Doctor,Psychiatry,High,Yes,No,1,3.4,10,No
+H0603,46,Female,Patient,Cardiology,High,No,No,3,5.9,8,Yes
+H0604,49,Female,Doctor,Neurology,Low,Yes,No,7,7.6,9,Yes
+H0605,49,Male,Doctor,Emergency,Low,No,No,7,4.8,5,Yes
+H0606,37,Male,Doctor,Oncology,Low,Yes,No,10,3.4,7,Yes
+H0608,34,Female,Doctor,Psychiatry,High,No,No,6,5.2,6,Yes
+H0609,29,Male,Patient,Psychiatry,Moderate,Yes,Yes,4,7.8,1,No
+H0610,34,Female,Patient,Cardiology,Low,Yes,No,10,9.9,5,Yes
+H0611,58,Female,Patient,Pediatrics,Low,No,No,10,6.1,7,No
+H0613,28,Male,Doctor,Oncology,Low,No,No,7,9.4,8,No
+H0614,67,Male,Doctor,Orthopedics,Moderate,Yes,No,8,6.9,6,Yes
+H0615,31,Male,Doctor,Orthopedics,Moderate,Yes,Yes,5,8.4,8,No
+H0616,24,Male,Patient,Pediatrics,Low,No,No,1,4.8,6,No
+H0618,67,Male,Doctor,Psychiatry,Low,No,No,10,7.3,5,No
+H0619,24,Female,Patient,Emergency,Moderate,Yes,No,10,9,10,Yes
+H0621,66,Male,Patient,Neurology,Moderate,Yes,No,5,8.4,6,Yes
+H0622,44,Male,Patient,General Medicine,Low,No,No,2,8.3,3,No
+H0626,82,Female,Patient,Emergency,High,Yes,No,1,3.8,3,No
+H0628,53,Male,Doctor,Oncology,Moderate,No,No,2,8.1,9,No
+H0629,29,Male,Patient,General Medicine,High,No,Yes,4,6.9,3,No
+H0630,32,Female,Doctor,Oncology,Low,No,Yes,3,5.5,10,Yes
+H0632,57,Male,Doctor,Cardiology,Moderate,Yes,No,10,7.8,4,No
+H0633,32,Male,Doctor,Neurology,High,No,No,5,7,2,No
+H0634,47,Male,Patient,Oncology,Low,Yes,No,3,4,9,Yes
+H0638,62,Female,Patient,Orthopedics,High,Yes,Yes,10,7.5,4,Yes
+H0639,41,Female,Doctor,Pediatrics,High,Yes,Yes,10,7.2,2,Yes
+H0640,19,Male,Patient,Pediatrics,High,Yes,No,9,3.5,5,No
+H0641,61,Female,Doctor,General Medicine,Low,Yes,No,7,4.4,5,Yes
+H0642,75,Female,Patient,Pediatrics,Moderate,No,Yes,2,3.6,7,Yes
+H0643,58,Male,Doctor,Neurology,Moderate,Yes,Yes,1,6.2,3,No
+H0645,54,Male,Doctor,Cardiology,Low,Yes,Yes,10,6.2,6,No
+H0646,39,Male,Patient,Psychiatry,Moderate,No,No,6,3.5,4,No
+H0647,73,Female,Patient,Orthopedics,High,No,No,8,5.5,6,Yes
+H0648,31,Male,Doctor,Oncology,Low,No,No,3,3.1,4,No
+H0649,42,Female,Doctor,General Medicine,High,No,No,8,5.5,8,No
+H0650,35,Male,Doctor,Psychiatry,Low,No,Yes,6,7.8,5,No
+H0651,30,Male,Doctor,Emergency,Low,No,Yes,6,9.8,8,Yes
+H0652,55,Female,Patient,Neurology,High,No,No,8,4.9,7,No
+H0658,21,Female,Patient,General Medicine,High,No,No,7,4.3,10,Yes
+H0659,5,Male,Patient,Cardiology,High,No,Yes,7,7,5,No
+H0660,70,Female,Doctor,Oncology,High,Yes,No,9,6.8,8,No
+H0661,53,Female,Doctor,Cardiology,High,No,No,9,4.4,8,No
+H0663,64,Male,Doctor,Emergency,Moderate,No,No,9,7.2,9,No
+H0664,56,Male,Doctor,Orthopedics,High,Yes,Yes,2,6.3,4,Yes
+H0665,85,Male,Patient,Neurology,Moderate,Yes,Yes,2,6.9,10,No
+H0666,51,Female,Patient,Psychiatry,Moderate,Yes,Yes,3,8.9,7,No
+H0667,51,Male,Patient,Emergency,Low,Yes,Yes,2,8.2,9,No
+H0668,65,Male,Doctor,Neurology,High,No,Yes,9,6.1,7,Yes
+H0669,39,Female,Doctor,Cardiology,Low,Yes,No,10,3.7,7,Yes
+H0670,38,Female,Patient,General Medicine,Moderate,No,No,7,7.9,10,Yes
+H0673,39,Female,Patient,General Medicine,Low,Yes,Yes,5,8.9,1,No
+H0675,47,Male,Patient,Orthopedics,Moderate,No,No,4,9.9,1,No
+H0676,81,Male,Patient,Pediatrics,High,No,No,2,9.7,2,No
+H0678,60,Male,Patient,Oncology,Low,No,Yes,9,8.3,4,No
+H0681,14,Female,Patient,Neurology,Moderate,Yes,Yes,2,8.3,6,Yes
+H0682,70,Female,Doctor,Pediatrics,Moderate,No,No,9,5.4,10,No
+H0684,30,Male,Doctor,General Medicine,High,Yes,Yes,10,8.9,2,Yes
+H0686,36,Female,Doctor,Psychiatry,Moderate,Yes,Yes,7,8.3,4,No
+H0688,61,Female,Doctor,Oncology,Moderate,Yes,No,6,5.2,6,Yes
+H0689,53,Male,Doctor,Psychiatry,High,No,No,9,5.7,2,No
+H0690,68,Male,Doctor,Neurology,Low,No,Yes,9,5.1,9,Yes
+H0691,26,Male,Patient,Emergency,Moderate,No,No,10,5.5,8,No
+H0693,39,Male,Doctor,Orthopedics,Low,No,No,3,6.1,2,No
+H0694,27,Female,Doctor,Oncology,Low,Yes,Yes,8,7.6,3,Yes
+H0697,53,Male,Doctor,Oncology,Low,No,No,10,8.8,5,Yes
+H0698,62,Male,Patient,Orthopedics,Low,No,Yes,8,10,8,Yes
+H0700,58,Male,Doctor,Oncology,Low,Yes,Yes,2,9,8,No
+H0701,66,Female,Doctor,Neurology,Low,No,No,4,7.5,8,No
+H0702,11,Male,Patient,General Medicine,High,No,No,7,9.6,3,No
+H0703,55,Female,Patient,Cardiology,High,No,No,4,7.1,5,Yes
+H0705,28,Female,Patient,Cardiology,Low,Yes,No,4,8.2,4,Yes
+H0707,19,Male,Patient,Psychiatry,Low,Yes,Yes,2,9.4,2,Yes
+H0708,1,Female,Patient,Emergency,High,Yes,No,6,3.9,6,No
+H0709,46,Female,Patient,Cardiology,Low,No,Yes,7,7.8,3,Yes
+H0710,44,Male,Doctor,Neurology,Low,No,No,4,4.7,6,No
+H0711,67,Female,Patient,Orthopedics,Low,No,No,8,5.5,9,Yes
+H0713,58,Male,Doctor,General Medicine,Moderate,Yes,Yes,4,4.6,10,No
+H0714,53,Male,Doctor,Emergency,Low,Yes,No,3,5.1,7,No
+H0715,55,Male,Doctor,Pediatrics,Moderate,No,Yes,9,3.2,2,No
+H0716,52,Female,Doctor,Emergency,High,No,No,5,4.4,8,No
+H0719,70,Female,Patient,Cardiology,High,No,No,10,3.9,1,No
+H0720,42,Male,Doctor,Psychiatry,Low,No,Yes,1,4.6,1,No
+H0721,7,Male,Patient,Pediatrics,Moderate,Yes,No,9,9.7,3,Yes
+H0722,60,Male,Doctor,Psychiatry,Moderate,Yes,Yes,4,8.8,10,Yes
+H0723,63,Male,Doctor,Cardiology,Low,No,Yes,10,5.9,9,No
+H0724,7,Female,Patient,Emergency,Moderate,Yes,Yes,9,9.6,3,Yes
+H0726,54,Female,Doctor,Emergency,Moderate,No,No,10,9.8,4,No
+H0730,69,Male,Doctor,Oncology,High,No,Yes,8,7.1,8,No
+H0731,58,Female,Doctor,Psychiatry,High,Yes,No,1,8.7,6,Yes
+H0733,53,Male,Doctor,Neurology,Moderate,Yes,No,10,9.6,3,No
+H0737,31,Female,Patient,Emergency,High,No,Yes,6,6.6,7,No
+H0739,73,Female,Patient,Orthopedics,High,No,Yes,7,6.4,5,Yes
+H0741,69,Female,Doctor,Cardiology,Low,No,No,7,9.6,4,No
+H0743,50,Male,Patient,Pediatrics,Moderate,No,No,9,5,6,Yes
+H0746,31,Male,Doctor,Oncology,Low,Yes,No,2,8.2,8,No
+H0747,66,Female,Patient,Orthopedics,High,No,No,9,3.1,4,No
+H0751,44,Male,Doctor,General Medicine,High,No,No,10,9.7,7,No
+H0752,60,Male,Patient,Orthopedics,Moderate,No,No,9,8,4,Yes
+H0753,31,Male,Doctor,Emergency,High,No,No,8,3.7,4,No
+H0754,73,Female,Patient,Cardiology,Low,Yes,Yes,9,7.4,9,Yes
+H0755,23,Female,Patient,Pediatrics,Moderate,No,No,6,9.2,4,No
+H0757,29,Female,Doctor,Pediatrics,High,No,No,3,4.7,10,No
+H0758,37,Male,Patient,Psychiatry,High,No,No,8,5.9,6,Yes
+H0760,40,Male,Doctor,Pediatrics,High,No,No,7,9.6,8,No
+H0761,48,Female,Doctor,Psychiatry,Low,Yes,No,5,9,9,No
+H0762,29,Female,Doctor,Emergency,High,No,No,2,6.7,1,Yes
+H0763,28,Male,Doctor,Oncology,Low,Yes,No,2,9.3,1,Yes
+H0764,66,Male,Doctor,Orthopedics,Low,Yes,No,6,9.2,5,No
+H0765,70,Male,Doctor,Cardiology,High,No,Yes,4,7.5,9,Yes
+H0766,52,Male,Patient,Oncology,Low,Yes,No,5,8.4,8,Yes
+H0767,61,Female,Doctor,General Medicine,Low,No,No,6,5.4,6,No
+H0768,56,Male,Doctor,Neurology,Low,Yes,No,4,8,7,No
+H0769,81,Male,Patient,Emergency,Low,No,No,6,9.2,9,Yes
+H0771,29,Female,Doctor,Psychiatry,Low,No,Yes,9,4.9,1,No
+H0775,78,Female,Patient,General Medicine,Moderate,Yes,Yes,7,5.4,7,Yes
+H0776,41,Male,Doctor,Orthopedics,Low,No,No,5,4.6,5,Yes
+H0777,19,Male,Patient,Pediatrics,Low,Yes,Yes,8,7.2,9,Yes
+H0778,25,Female,Patient,Emergency,Moderate,No,No,8,8.3,5,No
+H0780,84,Female,Patient,Cardiology,High,No,Yes,9,6.1,8,Yes
+H0782,26,Female,Doctor,Pediatrics,High,No,No,6,7.4,1,No
+H0785,11,Female,Patient,Orthopedics,Low,No,No,2,9.8,1,No
+H0787,49,Female,Doctor,Orthopedics,Moderate,No,Yes,10,3.9,6,Yes
+H0788,55,Female,Patient,Emergency,Low,No,Yes,10,7,6,Yes
+H0789,22,Male,Patient,General Medicine,Low,Yes,No,5,6.2,5,No
+H0790,79,Male,Patient,Orthopedics,Moderate,Yes,Yes,2,5.5,6,Yes
+H0793,57,Female,Doctor,Orthopedics,Moderate,Yes,Yes,8,3.9,2,Yes
+H0794,69,Male,Patient,Neurology,High,No,No,8,9.5,8,No
+H0796,29,Male,Doctor,Orthopedics,Moderate,No,Yes,10,3.6,10,Yes
+H0797,84,Female,Patient,Cardiology,Low,Yes,No,10,4.2,10,No
+H0798,44,Male,Doctor,Oncology,Moderate,No,No,10,5,9,No
+H0799,43,Male,Doctor,Cardiology,Low,Yes,No,5,7.4,8,No
+H0801,50,Female,Doctor,Oncology,High,Yes,Yes,2,8.5,8,Yes
+H0802,41,Female,Doctor,Pediatrics,Moderate,Yes,Yes,6,5.4,6,Yes
+H0803,65,Male,Doctor,Psychiatry,Moderate,Yes,No,1,5.3,8,No
+H0804,51,Male,Patient,Oncology,Low,Yes,No,5,3.9,1,Yes
+H0806,39,Female,Doctor,Cardiology,High,Yes,Yes,10,7.7,10,Yes
+H0807,10,Male,Patient,Emergency,High,Yes,Yes,4,9.6,1,Yes
+H0808,30,Male,Patient,Oncology,Low,Yes,No,6,6.3,9,Yes
+H0809,52,Female,Doctor,Emergency,Low,Yes,No,7,4.5,9,No
+H0810,73,Male,Patient,Neurology,Moderate,Yes,No,10,4.4,9,Yes
+H0811,71,Male,Patient,Cardiology,Low,No,Yes,5,5.6,4,No
+H0813,27,Female,Patient,Orthopedics,Moderate,No,No,7,3.9,10,Yes
+H0815,45,Female,Patient,Pediatrics,Moderate,Yes,No,3,4.1,2,Yes
+H0817,67,Male,Doctor,Orthopedics,High,Yes,Yes,3,4.9,3,Yes
+H0818,61,Male,Doctor,Cardiology,Low,No,Yes,7,5.9,4,No
+H0820,44,Male,Patient,Pediatrics,Moderate,Yes,Yes,8,7.4,6,No
+H0821,14,Male,Patient,Psychiatry,High,Yes,Yes,8,3.1,5,Yes
+H0822,65,Female,Doctor,Psychiatry,Moderate,Yes,No,1,9.6,8,No
+H0823,53,Male,Doctor,Neurology,High,No,Yes,1,4.9,8,Yes
+H0824,35,Male,Patient,Pediatrics,Moderate,Yes,No,2,4.9,10,No
+H0825,50,Female,Doctor,Cardiology,High,No,Yes,6,7.8,8,Yes
+H0826,78,Male,Patient,Orthopedics,Moderate,No,Yes,4,9.4,5,No
+H0827,47,Female,Doctor,Orthopedics,Moderate,No,No,3,6.2,9,No
+H0828,79,Male,Patient,Cardiology,Low,Yes,No,10,5.6,9,Yes
+H0829,47,Male,Patient,Psychiatry,Moderate,Yes,No,9,9.7,2,No
+H0831,32,Male,Doctor,General Medicine,Low,Yes,Yes,8,3.2,6,No
+H0832,37,Male,Doctor,Orthopedics,Moderate,No,No,8,9.6,8,No
+H0834,50,Female,Patient,Emergency,Low,Yes,Yes,3,8.6,6,Yes
+H0835,74,Male,Patient,Neurology,Low,Yes,Yes,3,5.4,10,Yes
+H0837,4,Male,Patient,Emergency,Moderate,Yes,Yes,7,7.9,9,No
+H0838,39,Female,Patient,Emergency,Moderate,No,Yes,1,3.8,5,No
+H0839,79,Male,Patient,General Medicine,High,Yes,Yes,2,7.5,2,Yes
+H0840,29,Female,Patient,Oncology,High,No,Yes,10,7.7,10,No
+H0842,47,Female,Doctor,Psychiatry,Moderate,Yes,Yes,2,9.7,8,Yes
+H0843,62,Male,Doctor,Psychiatry,Low,Yes,No,4,3.8,10,Yes
+H0844,16,Female,Patient,General Medicine,Moderate,Yes,No,9,6.8,10,Yes
+H0845,62,Female,Doctor,Orthopedics,Moderate,No,No,9,5,9,Yes
+H0847,58,Male,Doctor,Psychiatry,Low,No,Yes,4,6.3,7,Yes
+H0848,20,Female,Patient,Neurology,High,Yes,Yes,9,9,5,No
+H0849,45,Male,Doctor,Psychiatry,Low,No,Yes,8,9.6,4,No
+H0850,62,Male,Doctor,Cardiology,Low,No,Yes,7,5.9,4,Yes
+H0851,83,Male,Patient,General Medicine,Moderate,No,No,6,6.4,8,Yes
+H0852,39,Female,Patient,Orthopedics,Moderate,No,No,8,8,5,Yes
+H0854,15,Male,Patient,Psychiatry,Moderate,Yes,No,1,9.9,2,Yes
+H0855,47,Female,Patient,Psychiatry,High,Yes,Yes,5,6.8,1,Yes
+H0857,73,Male,Patient,Emergency,High,Yes,Yes,1,5.6,7,No
+H0858,39,Female,Doctor,Orthopedics,High,Yes,No,7,3.8,7,No
+H0859,42,Male,Doctor,General Medicine,High,No,No,8,5.2,7,No
+H0860,14,Male,Patient,Oncology,Moderate,No,No,7,6.7,1,No
+H0861,30,Male,Doctor,Pediatrics,Moderate,Yes,No,5,8.2,7,Yes
+H0862,67,Male,Doctor,Oncology,Moderate,No,Yes,1,3.6,7,No
+H0866,13,Male,Patient,Neurology,Low,No,No,5,7.7,7,No
+H0867,66,Male,Doctor,Psychiatry,Moderate,Yes,No,6,9.8,10,No
+H0868,56,Female,Patient,Pediatrics,Low,Yes,Yes,3,8.2,8,Yes
+H0870,47,Male,Doctor,Neurology,Low,Yes,Yes,4,4,4,No
+H0871,56,Female,Doctor,Oncology,High,No,No,7,8.2,10,No
+H0873,41,Male,Doctor,Neurology,Moderate,Yes,No,7,6.2,4,Yes
+H0874,33,Male,Patient,Neurology,Moderate,Yes,No,2,3.6,4,No
+H0876,51,Female,Doctor,Neurology,High,No,No,7,3.8,1,Yes
+H0880,47,Female,Doctor,Oncology,Low,Yes,Yes,9,9,2,Yes
+H0881,41,Male,Patient,Pediatrics,Moderate,No,Yes,8,4.1,7,Yes
+H0883,42,Male,Doctor,Oncology,Moderate,Yes,Yes,2,6.9,7,Yes
+H0884,44,Female,Patient,Neurology,High,Yes,No,1,3.1,10,No
+H0885,22,Female,Patient,Orthopedics,High,No,Yes,10,4.6,6,Yes
+H0886,38,Female,Patient,Psychiatry,High,Yes,Yes,7,3.1,10,No
+H0887,67,Male,Patient,Psychiatry,High,Yes,No,8,9.1,5,No
+H0889,6,Female,Patient,General Medicine,Low,No,Yes,4,8.8,8,No
+H0891,52,Male,Doctor,Oncology,Low,Yes,Yes,10,6.2,4,No
+H0892,42,Male,Doctor,Cardiology,Low,No,Yes,9,9.9,2,Yes
+H0893,49,Female,Patient,Psychiatry,Moderate,No,Yes,6,7.4,8,Yes
+H0894,42,Male,Doctor,Emergency,Moderate,No,Yes,6,3.4,6,Yes
+H0895,52,Male,Doctor,Neurology,Low,Yes,No,3,3.9,10,Yes
+H0897,67,Male,Doctor,Emergency,Low,Yes,Yes,7,6.3,9,No
+H0899,75,Male,Patient,Psychiatry,Low,Yes,No,2,8.4,7,Yes
+H0900,60,Male,Doctor,Pediatrics,High,Yes,Yes,10,9.8,2,Yes
