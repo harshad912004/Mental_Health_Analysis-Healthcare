@@ -1,97 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mental Health Analysis - Healthcare</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7fa;
+      color: #333;
+      line-height: 1.6;
       padding: 30px;
-      background-color: #eef7f5;
-      color: #2c3e50;
     }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
     h1 {
-      color: #00695c;
+      color: #2E3B4E;
+      font-size: 32px;
+      margin-bottom: 10px;
     }
-    a {
-      color: #00796b;
+
+    h2 {
+      color: #444;
+      font-size: 22px;
+      margin-top: 30px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #2E3B4E;
+      color: white;
       text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .preview {
+      border-radius: 6px;
       margin-top: 20px;
     }
-    img {
-      border: 2px solid #ccc;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    .btn:hover {
+      background-color: #1e2a38;
     }
-    footer {
-      margin-top: 50px;
-      font-size: 14px;
-      color: #555;
+
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .kpi {
+      background-color: #f0f4f7;
+      padding: 10px 20px;
+      border-left: 5px solid #2E3B4E;
+      margin-bottom: 15px;
+      border-radius: 6px;
+    }
+
+    .slide {
+      width: 100%;
+      flex-shrink: 0;
+      padding: 10px;
+      box-sizing: border-box;
+      background: #fff;
+    }
+
+    .slide img {
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #333;
+    }
+
+    #backToTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      z-index: 99;
+      border: none;
+      background-color: white;
+      color: white;
+      cursor: pointer;
+      padding: 12px 16px;
+      font-size: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    #backToTopBtn:hover {
+      background-color: #1e2a38;
+    }
+
+    @media screen and (max-width: 768px) {
+      .slide img {
+        height: auto;
+        width: 100%;
+      }
+      .btn {
+        font-size: 14px;
+        padding: 10px 16px;
+      }
     }
   </style>
 </head>
+
 <body>
-  <h1>🧠 Mental Health Analysis - Healthcare</h1>
-  <p>This Power BI dashboard dives into the mental health status of healthcare workers by exploring burnout frequency, stress levels, job satisfaction, and turnover intention.</p>
-  
-  <ul>
-    <li><a href="Mental_Health_Analysis-Healthcare.pbix" download>Download Power BI Dashboard (.pbix)</a></li>
-    <li><a href="Healthcare_Dataset.csv" download>Download Cleaned Dataset (.csv)</a></li>
-    <li><a href="Mental_Health_Analysis-Healthcare.pdf" download>Download PDF Export of Dashboard</a></li>
-  </ul>
+  <div class="container">
+    <h1>Mental Health Analysis – Healthcare</h1>
+    <p><strong>Project Type:</strong> Power BI Dashboard <strong>|</strong> Data Analytics <strong>|</strong> Mental Health + Healthcare</p>
 
-  <div class="preview">
-    <h1>📊 Dashboard Preview</h1>
-    <img src="Healthcare_Dashboard.png" alt="Mental Health Analysis Dashboard Screenshot" width="1400px">
-  </div>
+    <h2>🔍 Project Summary</h2>
+    <p>This Power BI dashboard dives into the mental health status of healthcare workers by exploring burnout frequency, stress levels, job satisfaction, and turnover intention.
+      It highlights the real-world impact of workload, support systems, and communication across medical departments.
+    </p>
 
-  <div class="insights">
-    <h1>Key Insights:</h1>
+    <h2>📂 Download Project Files</h2>
+    <a href="Healthcare_Dataset.csv" class="btn" download>📊 Download Cleaned Dataset</a>
+    <a href="Mental_Health_Analysis-Healthcare.pbix" class="btn" download>📁 Download Power BI File (.pbix)</a>
+    <a href="Mental_Health_Analysis-Healthcare.pdf" class="btn" download>📄 Download PDF Report</a>
+
+    <h2>📸 Dashboard Preview</h2>
+    <div class="slide"><img src="Healthcare_Dashboard.png" alt="Healthcare Dashboard"></div>
+
+    <h2>📈 Key Insights</h2>
     <ul>
-        <li>Doctors in specific departments (like Emergency, Oncology, or Orthopedics) report higher stress levels.</li>
-        <li>Doctors and Patients with chronic illnesses show elevated stress compared to those without.</li>
-        <li>Low sleep hours correlate strongly with higher stress (especially for doctors).</li>
-        <li>Workload level impacts both satisfaction and mental fatigue—high workload = low satisfaction.</li>
-        <li>Doctors with no support system report higher mental distress.</li>
-        <li>Age group 30–45 (mid-career professionals) tends to be the most stressed among doctors and patients.</li>
-        <li>Departments with better communication and staff satisfaction show lower stress scores.</li>
+      <li>Doctors in Emergency, Oncology, and Orthopedics report the highest stress levels.</li>
+      <li>Chronic illnesses in patients/doctors strongly correlate with elevated stress.</li>
+      <li>Sleep deprivation significantly impacts mental health in healthcare professionals.</li>
+      <li>Workload levels directly affect job satisfaction and fatigue.</li>
+      <li>Lack of support systems amplifies mental distress among staff.</li>
+      <li>Mid-career doctors (ages 30–45) are most prone to burnout.</li>
+      <li>Better communication reduces stress and boosts staff satisfaction.</li>
     </ul>
-  </div>
 
-  <div class="problems">
-    <h1>Problem Statements:</h1>
+    <h2>✅ Solutions Suggested</h2>
+    <div class="kpi">Implement sleep-focused scheduling to ensure adequate rest for night shift doctors.</div>
+    <div class="kpi">Introduce peer support groups and mental health helplines within hospitals.</div>
+    <div class="kpi">Train managers to recognize and reduce departmental overload.</div>
+    <div class="kpi">Incorporate burnout tracking KPIs into hospital performance reviews.</div>
+
+    <h2>🧠 Skills Demonstrated</h2>
     <ul>
-      <li>Why do doctors in certain departments experience more stress than others?</li>
-      <li>Is there enough mental health support for healthcare professionals in high-stress roles?</li>
-      <li>How does chronic illness influence patient mental health, and what care practices can reduce that stress?</li>
-      <li>Is workload distribution fair and health-conscious for healthcare workers?</li>
-      <li>Are current healthcare schedules compromising sleep, and thus mental health?</li>
-      <li>How can we increase emotional support and communication channels in hospitals?</li>
-      <li>Are there institutional systems for burnout prevention and satisfaction tracking?</li>
+      <li>Power BI Visualization & Storytelling</li>
+      <li>DAX for health metrics</li>
+      <li>Data Cleaning using Excel</li>
+      <li>Research on burnout patterns in healthcare</li>
     </ul>
-  </div>
 
-  <div class="solutions">
-    <h1>Data-Driven Solutions:</h1>
+    <h2>🚀 Future Enhancements</h2>
     <ul>
-      <li><b>Departmental Mental Health Programs:</b> Implement department-specific well-being programs, especially in high-stress areas like Emergency or Surgery.</li>
-      <li><b>Workload Management Systems:</b> Automate and monitor workload allocation to prevent burnout, especially in departments showing high stress but low satisfaction.</li>
-      <li><b>Sleep Hygiene Education & Policy:</b> Schedule optimization and sleep health awareness for doctors and patients. Promote balanced shift patterns.</li>
-      <li><b>Mental Health Counseling Access:</b> Integrate on-site counselors or psychologists available for doctors and long-term patients.</li>
-      <li><b>Support System Tracking & Team Building:</b> Encourage emotional support groups and institutional peer support models.</li>
-      <li><b>Chronic Illness Coping Workshops for Patients:</b> Run sessions that teach patients how to mentally cope with long-term illness and medical uncertainty.</li>
-      <li><b>Feedback & Analytics Loop:</b> Periodically analyze feedback from patients and doctors to adapt policies and improve satisfaction scores.</li>
+      <li>Add storytelling with bookmarks and drill-through reports</li>
+      <li>Use real hospital survey data (if available)</li>
+      <li>Collaborate with a healthcare organization to validate findings</li>
     </ul>
+
+    <h2>📁 Source Code</h2>
+    <a href="https://github.com/harshad912004/Mental_Health_Analysis-Finance" class="btn" target="_blank">View GitHub Repository</a>
+
+    <h2>📞 Let's Connect</h2>
+    <p>For internships, collaborations, or feedback — reach out!</p>
+    <a href="https://www.linkedin.com/in/harshad-dhongade" class="btn" target="_blank">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"
+        style="height: 18px; vertical-align: middle; margin-right: 8px;">
+      Connect on LinkedIn
+    </a>
+    <a href="https://github.com/harshad912004" class="btn" target="_blank"> Connect on GitHub</a>
   </div>
 
-  <footer>
-    <p>Created by <strong>Harshad</strong> | MCA | Data Analytics Enthusiast</p>
-    <p><a href="https://www.linkedin.com/in/harshad-dhongade" target="_blank">Connect on LinkedIn</a></p>
-  </footer>
+  <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">🔝</button>
+
+  <script>
+    window.onscroll = function () {
+      const btn = document.getElementById("backToTopBtn");
+      if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    };
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
 </body>
 </html>
